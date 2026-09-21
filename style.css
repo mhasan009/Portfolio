@@ -179,7 +179,9 @@ nav a:hover {
   background-color: #1e1e1e;
   text-align: center;
   margin-top: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .item img {
@@ -230,7 +232,8 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.edfirst {
+.edfirst,
+.edsecond {
   margin-bottom: 30px;
   position: relative;
   padding-left: 25px;
@@ -270,7 +273,9 @@ nav a:hover {
   border-radius: 12px;
   border: 1px solid #3a3a3a;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .project:hover {
   transform: translateY(-5px);
